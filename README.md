@@ -15,7 +15,7 @@ Installs nginx ingress helm chart on kubernetes cluster using helm
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
 | helm_nginx_name              | Release name to manage.                                                                                             | nginx                      |
 | helm_nginx_chart_repo_url    | Chart repository URL where to locate the requested chart.                                                           | https://kubernetes.github.io/ingress-nginx |
-| helm_nginx_chart_version     | Chart version to install. If this is not specified, the latest version is installed.                                | latest                            |
+| helm_nginx_chart_version     | Chart version to install. Defaults to 4.15.1; can be overridden, including with 'latest' if explicitly chosen.      | 4.15.1                            |
 | helm_nginx_chart_ref         | chart_reference on chart repository.                                                                                | ingress-nginx                              |
 | helm_nginx_release_namespace | Kubernetes namespace where the chart should be installed.                                                           | ingress-nginx                     |
 | helm_nginx_create_namespace  |                                                                                                                     | True                               |

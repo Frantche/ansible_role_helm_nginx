@@ -1,6 +1,6 @@
 helm_nginx_name: nginx
 helm_nginx_chart_repo_url: "https://kubernetes.github.io/ingress-nginx"
-helm_nginx_chart_version: "latest"
+helm_nginx_chart_version: "4.15.1"
 helm_nginx_chart_ref: ingress-nginx
 helm_nginx_release_namespace: nginx-ingress
 helm_nginx_create_namespace: true
